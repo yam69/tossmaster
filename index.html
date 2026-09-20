@@ -53,16 +53,28 @@ src="https://www.facebook.com/tr?id=2278478236273479&ev=PageView&noscript=1"
     }
 
     .card {
-      width: 100%;
-      border: 1px solid rgba(255, 193, 7, .30);
-      border-radius: 26px;
-      padding: 26px 20px 22px;
-      background: linear-gradient(180deg, #25252d 0%, #18181e 100%);
-      box-shadow:
-        0 0 0 1px rgba(255,255,255,.025) inset,
-        0 20px 60px rgba(0,0,0,.55);
-      text-align: center;
-    }
+  width: 100%;
+  border: 1px solid rgba(255, 193, 7, .30);
+  border-radius: 26px;
+  padding: 26px 20px 22px;
+
+  background:
+    linear-gradient(
+      rgba(15,15,18,.82),
+      rgba(15,15,18,.90)
+    ),
+    url("bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,.025) inset,
+    0 20px 60px rgba(0,0,0,.55);
+
+  text-align: center;
+}
 
     .logo-wrap {
       width: 112px;
