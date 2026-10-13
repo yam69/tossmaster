@@ -27,7 +27,7 @@
   <meta name="theme-color" content="#17171d">
   <title>TOSS MASTER — Premium Predictions</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap" rel="stylesheet">
 
   <style>
     * {
@@ -96,13 +96,30 @@
     }
 
     h1 {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(30px, 9vw, 43px);
-      line-height: 1;
-      letter-spacing: 2px;
-      font-weight: 400;
-      margin-bottom: 12px;
-    }
+  font-family: 'Teko', sans-serif;
+  font-size: clamp(48px, 13vw, 64px);
+  line-height: 0.95;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    180deg,
+    #fffbd0 0%,
+    #ffd700 35%,
+    #ffb300 70%,
+    #fff0a0 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  filter:
+    drop-shadow(0 2px 0 #8a4b00)
+    drop-shadow(0 0 8px rgba(255, 196, 0, 0.65));
+}
 
     .badge {
       display: inline-flex;
