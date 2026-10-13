@@ -106,11 +106,22 @@
 
   background: linear-gradient(
     180deg,
-    #fffbd0 0%,
-    #ffd700 35%,
-    #ffb300 70%,
-    #fff0a0 100%
+    #fff4a3 0%,
+    #ffdf32 35%,
+    #f5b800 70%,
+    #ffe878 100%
   );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-text-stroke: 1.5px #080808;
+
+  filter:
+    drop-shadow(2px 3px 0 #000)
+    drop-shadow(0 0 5px rgba(255, 190, 0, 0.3));
+    }
 
   -webkit-background-clip: text;
   background-clip: text;
